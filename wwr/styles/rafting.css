@@ -1,8 +1,69 @@
 :root {
     --text-align: center;
     --height: auto;
+    --font-family: 'Roboto', cursive;
 }
 
-main h1 {
+
+h2 {
+    font-family: 'Gochi Hand';
+    color: #33658A;
+}
+
+main p {
+    font-family: var(--font-family);
+}
+
+a {
     text-align: var(--text-align);
+    font-family: var(--font-family);
+    text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+}
+
+header {
+	max-width: 800px;
+}
+
+footer {
+	max-width: 800px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 13rem;
+}
+
+.hero h1 {
+    font-family: 'Gochi Hand';
+    color: #33658A;
+    position: absolute;
+    border: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #33658A80;
+}
+
+.hero article {
+    position: absolute;
+    background-color: #86BBD8;
+    padding: 1rem;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 200px;
+    height: var(--height);
+    padding: 2px;
+    float: right;
 }
