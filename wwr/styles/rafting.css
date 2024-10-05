@@ -1,14 +1,18 @@
 :root {
     --text-align: center;
     --height: auto;
-    --font-family: 'Roboto', cursive;
-    --color: #33658A;
+    --text-font: 'Roboto', cursive;
+    --heading-font: 'Gochi Hand';
+    --primary-color: #33658A;
+    --secondary-color: #86BBD8;
+    --accent1-color: #F6AE2D;
+    --accent2-color: #F26419;
 }
 
 
 h2 {
     font-family: 'Gochi Hand';
-    color: var(--color);
+    color: var(--primary-color);
 }
 
 main p {
@@ -40,7 +44,7 @@ footer {
     margin-bottom: 13rem;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     /* font-family: 'Gochi Hand';
     color: #33658A;
@@ -50,9 +54,9 @@ h1 {
     background-color: #33658A80; */
 }
 
-article {
+.hero article {
     position: absolute;
-    background-color:rgba(134, 187, 216, 0.5); /*convereted from hex to rgba*/
+    background-color: var(--accent1-color);
     padding: 1rem;
 }
 
