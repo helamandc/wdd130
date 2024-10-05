@@ -2,12 +2,13 @@
     --text-align: center;
     --height: auto;
     --font-family: 'Roboto', cursive;
+    --color: #33658A;
 }
 
 
 h2 {
     font-family: 'Gochi Hand';
-    color: #33658A;
+    color: var(--color);
 }
 
 main p {
