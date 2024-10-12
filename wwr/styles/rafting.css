@@ -52,10 +52,17 @@ nav {
 
 footer {
     margin: 1rem auto;
-    display: flex;
-    justify-content: center;
 	border-top: 1px solid #ccc;
 	max-width: 1200px;
+}
+
+footer p {
+    position: absolute;
+}
+
+.social-media-icons {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: flex-end; /* Align items to the right */
 }
 
 .hero {
