@@ -22,7 +22,8 @@ main p {
 a {
     text-align: var(--text-align);
     font-family: var(--font-family);
-    text-decoration: none;
+	padding: 10px;
+	text-decoration: none;
 }
 
 main {
@@ -30,10 +31,29 @@ main {
 }
 
 header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
 	max-width: 1200px;
 }
 
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width:100px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+}
+
 footer {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+	border-top: 1px solid #ccc;
 	max-width: 1200px;
 }
 
@@ -72,3 +92,25 @@ footer {
     padding: 2px;
     float: right;
 }
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 10px;
+  }
+
+  figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    color: var(--primary-color);   
+    font: var(--text-font);
+    padding: 3px;
+    text-align: center;
+  }
+
