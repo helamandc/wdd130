@@ -10,7 +10,7 @@
 }
 
 
-h2 {
+h1, h2 {
     font-family: 'Gochi Hand';
     color: var(--primary-color);
 }
