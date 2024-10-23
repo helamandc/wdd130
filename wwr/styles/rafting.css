@@ -122,3 +122,62 @@ figcaption {
     text-align: center;
   }
 
+.info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.info1 {
+    margin-left:25rem;
+    display: flex;
+    align-items: center;
+}
+
+.info1 img {
+    margin-right: 10px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    display: grid;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.centred-button {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.leadership-team {
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.form {
+    margin-top: 2rem;
+}

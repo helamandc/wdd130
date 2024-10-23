@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Company - Contact Us</title>
+    <meta name="description" content="This is the contact page for the White Water Rafting Company website.">
+    <meta name="author" content="Helaman Del Castillo">
+    <!-- Preconnect links for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts links -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Your main CSS file -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/rafinglogo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div class="info1">
+                <img src="images/address-icon.png" alt="company-address" width="30">
+                <p>
+                    500 Collins St., St. Kilda West, Victoria, Australia 3182
+                </p>
+            </div>
+            <div class="info1">
+                <img src="images/phone-icon.png" alt="phone-icon" width="30">
+                <p>
+                    (032) 456 776 578
+                </p>
+            </div class="info1">
+            <div class="info1">
+                <img src="images/email-add.png" alt="email-address" width="30">
+                <p>
+                    admin@whitewaterrafting.com
+                </p>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1624.94732696947!2d144.96648823164347!3d-37.85820084408761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6686e74221835%3A0x5045675218cfe40!2sSt%20Kilda%20West%20VIC%203182!5e0!3m2!1sen!2sau!4v1729650756740!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <form class="form">
+            <fieldset>
+                <legend>Get in touch with us today!</legend>
+                <div class="form-item column1">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column1">
+                    <label for="useremail">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <div class="form-item column1">
+                    <label for="reason">Reason for Inquiry:</label><br>
+                    <label>
+                        <input type="radio" name="inquiry" value="inquiry" checked>
+                        General Inquiry
+                    </label><br>
+                    <label>
+                        <input type="radio" name="question" value="question">
+                        Reservation Question
+                    </label><br>
+                    <label>
+                        <input type="radio" name="suggestion" value="suggestion">
+                        Website Suggestion
+                    </label><br>
+                </div>
+                <label for="message" class="centered-label">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" placeholder="Please write your message here..."></textarea>
+                <div class="form-item column1">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
+                </div>
+
+            </fieldset>
+            <div class="centred-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="leadership-team">
+            <figure>
+                <img src="images/lisa-luigi.png" alt="luisa-luigi" width="150">
+                <figcaption>Luisa Luigi, CEO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/mario-maurer.png" alt="mario-maurer" width="150">
+                <figcaption>Mario Maurer, CTO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/maria-town.png" alt="mria-town" width="150">
+                <figcaption>Maria Town, CFO</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>©2024 🤽 White Water Rafting Company 🤽 Helaman Del Castillo</p>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fb-icon.png" alt="facebook-icon" width="50"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/yt-icon.png" alt="youtube-icon" width="50"></a>
+            <a href="https://instagram.com/" target="_blank"><img src="images/insta-icon.png" alt="instagram-icon" width="50"></a>
+        </div>
+    </footer>
+</body>
+</html>
