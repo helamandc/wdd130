@@ -110,7 +110,7 @@ figure {
     margin: 10px;
   }
 
-  figure img {
+figure img {
     max-width: 220px;
     max-height: 150px;
 }
